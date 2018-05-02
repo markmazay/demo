@@ -1,0 +1,23 @@
+base_url=https://www.cars.com/
+#base_url=https://www.lowermybills.com
+demo_email = (//input[@class='iui-AuthContainer__field--input'])[1]
+demo_password = //input[@type='password']
+demo_login_button = //button[contains(.,'login')]
+# Fields
+global_search_field=//input[@class='SearchBox__input fsrVisible']
+# Butons
+global_search_button=//*[@class='SearchBox__buttonIcon']
+search_button=//input[@class='cui-button cui-button--fluid'][@type='submit'][@value='Search'][@data-linkname='Research']
+
+get_started_today_button=//div[@class='button green']
+# Labels
+shop_by_color_label=//input[@class='SearchBox__input']
+# Links
+auto_research=//a[@title='Specifications and reviews on car models']
+
+
+# Select Dropdown
+s#elect_make=//select[@class='ng-model="$ctrl.selections.make']
+select_make=//*[@id='research-search-widget']/div/cars-entry-research-search-research/form/div/div[1]/div/select
+select_model=//*[@id='research-search-widget']/div/cars-entry-research-search-research/form/div/div[2]/div/select
+select_year=//*[@id='research-search-widget']/div/cars-entry-research-search-research/form/div/div[3]/div/select

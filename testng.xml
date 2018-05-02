@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ewhosts">
+
+<listeners>
+    <listener class-name="listener.TestsListenerAdapter" />
+</listeners>
+
+<test name="AssignmentTest">
+    <classes>
+        <class name="com.testcases.AssignmentTest" ></class> 
+    </classes>
+</test>
+
+</suite>
